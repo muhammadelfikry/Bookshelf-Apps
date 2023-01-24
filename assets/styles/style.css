@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.head-bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A4E5E0;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section h2 {
+    text-align: center;
+    color: #37BEB0;
+}
+
+.input-section form .input {
+    margin: 8px 0;
+}
+
+.input-section form .input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input-section form .input label {
+    color: #37BEB0;
+    font-weight: bold;
+}
+
+.input-section form button {
+    background-color: #37BEB0;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input-section form button span {
+    font-weight: bold;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-section h2 {
+    color: #37BEB0;
+}
+
+.search-section form {
+    padding: 16px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.search-section form label {
+    display: flex;
+    align-items: center;
+}
+
+.search-section form input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-section form button {
+    background-color: #37BEB0;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-shelf h2 {
+    color: #37BEB0;
+}
+
+.book-shelf .book-list {
+    padding: 16px;
+}
+
+.book-shelf .book-list .book-item {
+    padding: 16px;
+    margin: 10px 0;
+    border: 1px solid #37BEB0;
+    border-radius: 20px;
+}
+
+.book-shelf .book-list .book-item h3 p {
+    margin: 8px 0;
+}
+
+.book-shelf .book-list .book-item .action button {
+    border: 0;
+    padding: 5px;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-shelf .book-list .book-item .action .green {
+    background-color: #37BEB0;
+    color: white;
+}
